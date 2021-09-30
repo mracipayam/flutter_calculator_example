@@ -18,6 +18,7 @@ class CalcApp extends StatefulWidget {
 class CalcAppState extends State<CalcApp> {
   String _history = '';
   String _expression = '';
+  int deneme = 0;
 
   void numClick(String text) {
     setState(() => _expression += text);
